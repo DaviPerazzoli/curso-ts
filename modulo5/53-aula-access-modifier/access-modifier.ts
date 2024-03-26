@@ -99,9 +99,9 @@ class Funcionario_02 {
         this.codigo = codigo;
     }
 
-    alterarCodigo(codigo: number) {
-        this.codigo = codigo;
-    }
+    // alterarCodigo(codigo: number) {
+    //     this.codigo = codigo; //! erro
+    // }
 }
 
 const func = new Funcionario_02('Davi Fernando', 12112221);
